@@ -1,96 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Global Agency</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
+
 <body>
-  <header>
+  <!-- Header -->
+  <header class="header">
     <img src="images/logo.png" alt="Global Agency Logo" class="logo" />
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="universities.html">Universities</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#countries">Countries</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="hero" data-aos="fade-in">
-    <img src="images/banner.jpg" alt="Banner Image" />
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <img src="images/hero.jpg" alt="Hero Image" class="hero-img" />
     <div class="hero-text">
       <h1>Welcome to Global Agency</h1>
-      <p>Your trusted partner for international education.</p>
+      <p>Your trusted partner in abroad education and services.</p>
     </div>
   </section>
 
-  <section class="about" data-aos="fade-up">
+  <!-- About Section -->
+  <section id="about" class="section">
     <h2>About Us</h2>
-    <p>Global Agency provides guidance and support for students aspiring to study abroad. Our mission is to simplify your international journey with clarity and care.</p>
-    <img src="images/about.jpg" alt="About Us">
+    <p>We help students and professionals achieve their dreams by guiding them through the process of studying or working abroad. With experienced consultants and global partnerships, we ensure the best outcomes for our clients.</p>
   </section>
 
-  <section class="services" data-aos="fade-up">
+  <!-- Services Section -->
+  <section id="services" class="section services">
     <h2>Our Services</h2>
-    <div class="cards">
+    <div class="service-cards">
       <div class="card">
-        <img src="images/service1.png" alt="Counseling" />
-        <h3>Career Counseling</h3>
+        <img src="images/icon1.png" alt="Counseling Icon" />
+        <h3>Free Counseling</h3>
       </div>
       <div class="card">
-        <img src="images/service2.png" alt="Visa Help" />
+        <img src="images/icon2.png" alt="Visa Icon" />
         <h3>Visa Assistance</h3>
       </div>
       <div class="card">
-        <img src="images/service3.png" alt="Admissions" />
-        <h3>University Admissions</h3>
+        <img src="images/icon3.png" alt="Support Icon" />
+        <h3>24x7 Support</h3>
       </div>
     </div>
   </section>
 
-  <section class="universities" data-aos="fade-up">
-    <h2>Top Universities</h2>
-    <div class="university-logos">
-      <img src="images/university1.png" alt="University 1" />
-      <img src="images/university2.png" alt="University 2" />
-      <img src="images/university3.png" alt="University 3" />
-    </div>
+  <!-- Countries Section -->
+  <section id="countries" class="section countries">
+    <h2>Top Countries We Serve</h2>
+    <img src="images/country.jpg" alt="Countries Map" class="country-img" />
   </section>
 
-  <section class="gallery" data-aos="fade-up">
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
     <h2>Gallery</h2>
     <div class="gallery-grid">
-      <img src="images/gallery1.jpg" alt="Gallery Image 1" />
-      <img src="images/gallery2.jpg" alt="Gallery Image 2" />
-      <img src="images/gallery3.jpg" alt="Gallery Image 3" />
-      <img src="images/gallery4.jpg" alt="Gallery Image 4" />
-      <img src="images/gallery5.jpg" alt="Gallery Image 5" />
-      <img src="images/gallery6.jpg" alt="Gallery Image 6" />
+      <img src="images/gallery1.jpg" alt="Gallery 1" />
+      <img src="images/gallery2.jpg" alt="Gallery 2" />
+      <img src="images/gallery3.jpg" alt="Gallery 3" />
+      <img src="images/gallery4.jpg" alt="Gallery 4" />
+      <img src="images/gallery5.jpg" alt="Gallery 5" />
+      <img src="images/gallery6.jpg" alt="Gallery 6" />
     </div>
   </section>
 
-  <section class="contact" data-aos="fade-up">
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
     <h2>Contact Us</h2>
-    <p>Phone: <a href="tel:+917676925515">7676925515</a></p>
-    <p>Landline: 08022454519</p>
+    <p>Phone: <a href="tel:7676925515">7676925515</a></p>
     <p>Email: <a href="mailto:globalagencyservice@gmail.com">globalagencyservice@gmail.com</a></p>
-    <p>Google Form: <a href="https://forms.gle/EuiiAZ8cYm1jLtnBA" target="_blank">Click here</a></p>
+    <p>Landline: 08022454519</p>
+    <a href="https://forms.gle/EuiiAZ8cYm1jLtnBA" target="_blank" class="form-link">Fill our contact form</a>
   </section>
 
-  <footer>
+  <!-- Footer -->
+  <footer class="footer">
     <p>&copy; 2025 Global Agency. All rights reserved.</p>
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </body>
+
 </html>
