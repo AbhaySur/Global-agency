@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,46 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Global Agency</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link rel="icon" href="1000178502.jpg" type="image/jpeg" />
+  <link rel="icon" type="image/jpeg" href="images/logo.jpg" />
 </head>
 <body>
   <header>
-    <img src="1000178502.jpg" alt="Global Agency Logo" class="logo" />
-    <h1>Global Agency</h1>
-    <p>Your Gateway to Studying Abroad</p>
+    <div class="container nav-bar">
+      <img src="images/logo.jpg" alt="Global Agency Logo" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="universities.html">Universities</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section class="hero">
-    <h2>Discover World-Class Education</h2>
-    <p>We help students reach top universities in USA, UK, Canada, Australia, and more.</p>
-    <a class="cta" href="https://wa.me/917676925515" target="_blank">Talk to Our Expert →</a>
+    <div class="container">
+      <h1>Study Abroad with Confidence</h1>
+      <p>Your trusted partner in global education and visa services.</p>
+      <a href="services.html" class="btn">Explore Services</a>
+    </div>
   </section>
 
   <section class="features">
-    <div class="feature">
-      <h3>✅ Personalized Counseling</h3>
-      <p>Get expert guidance to choose the best country, university, and course.</p>
+    <div class="container">
+      <h2>Why Choose Global Agency?</h2>
+      <div class="grid-3">
+        <div class="feature-box">
+          <h3>Expert Guidance</h3>
+          <p>Years of experience guiding students to top universities.</p>
+        </div>
+        <div class="feature-box">
+          <h3>High Visa Success</h3>
+          <p>We ensure your visa process is smooth and successful.</p>
+        </div>
+        <div class="feature-box">
+          <h3>End-to-End Support</h3>
+          <p>From counselling to post-arrival, we've got you covered.</p>
+        </div>
+      </div>
     </div>
-    <div class="feature">
-      <h3>✈️ Visa & Travel Support</h3>
-      <p>We take care of your complete visa process and pre-departure needs.</p>
-    </div>
-    <div class="feature">
-      <h3>💼 Career Roadmap</h3>
-      <p>Build your future with internships, job pathways, and PR options abroad.</p>
-    </div>
-  </section>
-
-  <section class="form">
-    <h2>📋 Apply or Inquire Now</h2>
-    <iframe src="https://forms.gle/EuiiAZ8cYm1jLtnBA" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen></iframe>
   </section>
 
   <footer>
-    <p>📞 <strong>Phone:</strong> +91 7676925515 | ☎️ <strong>Landline:</strong> 08022454519</p>
-    <p>✉️ <a href="mailto:globalagencyservice@gmail.com">globalagencyservice@gmail.com</a></p>
-    <p>© 2025 Global Agency. All rights reserved.</p>
+    <div class="container footer-content">
+      <p>&copy; 2025 Global Agency. All rights reserved.</p>
+      <p>Contact: <a href="tel:7676925515">7676925515</a> | 
+        <a href="mailto:globalagencyservice@gmail.com">globalagencyservice@gmail.com</a></p>
+    </div>
   </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/917676925515" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+  </a>
 </body>
 </html>
